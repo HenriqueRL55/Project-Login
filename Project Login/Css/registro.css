@@ -1,0 +1,111 @@
+/*universal*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+
+}
+/*corpo*/
+body{
+	background: #ced6e0;
+	font-family: 'Dosis', sans-serif;
+
+}
+
+/*container caixa registrar*/
+.box{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	background: #2f3542;
+	width: 50%;
+	padding: 50px;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	border-radius: 30px;
+	transition: 4s;
+	border: 2.5px solid #fff;
+}
+
+.box h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 2em;
+	padding-bottom: 2%;
+}
+
+.box input[type="text"], .box input[type="password"], .box input[type="email"] {
+	padding: 2% 2%;
+	margin: 10px auto;
+	border-radius: 25px;
+	background: #2f3542;
+	display: block;
+	margin-bottom: 1.5%;
+	text-align: center;
+	border: 2px solid #fff;
+	outline: none;
+	width: 200px;
+	transition: 0.80s;
+	color: white;
+
+}
+
+::placeholder { 
+  color: white; 
+}
+
+.box input[type="text"]:focus, .box input[type="password"]:focus, .box input[type="email"]:focus {
+	width: 250px;
+	border: 3px solid black ;
+	background: #1e272e;
+
+}
+
+
+/*termos de uso*/
+.box input[type="checkbox"], .box span{
+	margin: 10px;
+
+}
+
+.box span a{
+	font-weight: 1em;
+	font-size: 1em; 
+	color: white;
+	cursor: pointer;
+	transition: 2s;
+	width: 0px;
+	height: 0px;
+}
+
+.box span:hover{
+	
+
+
+}
+
+/*Submit Registro*/
+
+.box input[type="submit"]{
+	
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	background: #2f3542;
+	border: 2px solid white;
+	color: white;
+	transition: 0.80s;
+	margin: 10px;
+	cursor: pointer;  
+	
+}
+
+.box input[type="submit"]:hover{
+	width: 150px;
+	border: 1px solid black;
+	background: #1e272e;
+}
+
+
+

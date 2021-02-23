@@ -1,0 +1,180 @@
+
+/*universal*/
+*{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+
+}
+/*corpo*/
+body{
+	background: #ced6e0;
+	font-family: 'Dosis', sans-serif;
+
+
+}
+
+/*container caixa login*/
+.box{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	background: #2f3542;
+	width: 300px;
+	padding: 50px;
+	transform: translate(-50%, -65%);
+	text-align: center;
+	border-radius: 30px;
+	transition: 4s;
+	border: 2.5px solid #fff;
+}
+
+.box h1{
+	color: #fff;
+	text-transform: uppercase;
+	padding: 10%;
+	font-size: 2em;
+
+
+}
+
+.box input[type="text"], .box input[type="password"] {
+	padding: 5% 5%;
+	border-radius: 25px;
+	background: #2f3542;
+	display: block;
+	margin: 10px auto;
+	text-align: center;
+	border: 2px solid #fff;
+	outline: none;
+	width: 200px;
+	transition: 0.80s;
+	color: white;
+}
+
+::placeholder { 
+  color: white; 
+}
+
+
+
+
+/*efeito focus*/
+.box input[type="text"]:focus, .box input[type="password"]:focus {
+	width: 250px;
+	border: 3px solid black ;
+	background: #1e272e;
+}
+
+/*submit*/
+.box input[type="submit"]{
+	
+	width: 100px;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	background: #2f3542;
+	border: 2px solid white;
+	color: white;
+	transition: 0.80s;
+	margin: 10px;
+	cursor: pointer;   /*ao colocar o mouse o cursor troca*/
+}
+
+.box input[type="submit"]:hover{
+	width: 150px;
+	border: 3px solid black;
+	background: #1e272e;
+}
+
+/*registro*/
+
+.registro{
+
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	background: #2f3542;
+	width: 250px;
+	padding: 20px;
+	transform: translate(-50%, 300%);
+	text-align: center;
+	border-radius: 30px;
+	transition: 1s;
+	padding: 15px;
+	border: 2px solid white;
+}
+
+.registro ul{
+	text-align: center;
+}
+
+.registro ul li{
+
+	list-style: none;
+
+}
+
+.registro ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.registro ul li i{
+
+	padding-right: 5px;
+	
+}
+
+.registro:hover{
+	width: 300px;
+	border: 1px solid black;
+	background:  #1e272e;
+}
+
+/*Esqueceu a senha*/
+
+.forget{
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	background: #2f3542;
+	width: 250px;
+	padding: 20px;
+	transform: translate(-50%, 440%);
+	text-align: center;
+	border-radius: 30px;
+	transition: 1s;
+	padding: 15px;
+	border: 1px solid white;
+}
+.forget ul{
+	text-align: center;
+}
+
+.forget ul li{
+
+	list-style: none;
+
+}
+
+.forget ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.forget ul li i{
+
+	padding-right: 5px;
+	
+}
+
+.forget:hover{
+	width: 300px;
+	border: 1px solid black;
+	background:  #1e272e;
+}
+
+
+
+
